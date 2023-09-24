@@ -800,7 +800,7 @@ if __name__ == '__main__':
 
         else:
             while len(download_dir) == 0:
-                download_dir = input('\nPlease input download directory: ')
+                download_dir = '/content/'
 
                 if len(download_dir) == 0:
                     download_dir = './'
