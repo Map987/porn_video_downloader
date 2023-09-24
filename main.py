@@ -701,10 +701,10 @@ def interactive_mode(download_dir: str, is_silent: bool) -> bool:
 
     print(f'\n{BashColor.GREEN}[ New Case ]{BashColor.CLEAR}')
 
-    url = input('Please input a supported video url: ')
+    url = 'https://missav.com/cn/video/618224'
 
     if len(url) > 0:
-        filename = input('\nPlease input filename: ')
+        filename = mp4
 
         if len(filename) == 0:
             filename = None
