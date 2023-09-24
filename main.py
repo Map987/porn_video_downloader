@@ -704,7 +704,7 @@ def interactive_mode(download_dir: str, is_silent: bool) -> bool:
     url = 'https://missav.com/cn/video/618224'
 
     if len(url) > 0:
-        filename = mp4
+        filename = 'mp4'
 
         if len(filename) == 0:
             filename = None
